@@ -1,0 +1,7 @@
+com\myapp\ws\converter\DateConverter.class
+com\myapp\ws\model\Orders.class
+com\myapp\ws\model\Adapter1.class
+com\myapp\ws\model\ObjectFactory.class
+com\myapp\ws\model\Orders$Order.class
+com\myapp\ws\model\package-info.class
+com\myapp\ws\converter\ConverterException.class

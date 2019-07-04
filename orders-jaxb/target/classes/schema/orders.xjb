@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jxb:bindings version="1.0" xmlns:jxb="http://java.sun.com/xml/ns/jaxb"
+xmlns:xjc="http://java.sun.com/xml/ns/jaxb/xjc"
+xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+
+
+<jxb:bindings schemaLocation="orders.xsd">
+<jxb:globalBindings>
+<jxb:javaType name="org.joda.time.LocalDate" xmlType="xs:date"
+parseMethod="com.myapp.ws.converter.DateConverter.parse"
+printMethod="com.myapp.ws.converter.DateConverter.print" />
+</jxb:globalBindings>	
+</jxb:bindings>
+
+</jxb:bindings>

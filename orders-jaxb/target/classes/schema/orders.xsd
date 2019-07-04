@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://myorders.com/orders" xmlns:orders="http://myorders.com/orders" elementFormDefault="qualified">
+
+<element name ="orders">
+<complexType>
+
+<sequence>
+<element name="order" maxOccurs="unbounded" > 
+<complexType>
+<sequence>
+
+<element name="productId" type="int" minOccurs="1" maxOccurs="1"></element>
+<element name="productName" type="string" ></element>
+<element name="description" type="string"></element>
+<element name="price" type="double"></element>
+<element name="imageUrl" type="string"></element>
+<element name="availability" type="date"></element>
+<element name="rating" type="double"></element>
+
+</sequence>
+</complexType>
+</element>
+</sequence>
+</complexType>
+</element>
+
+</schema>

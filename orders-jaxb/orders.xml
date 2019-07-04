@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<orders xmlns="http://myorders.com/orders">
+    <order>
+        <productId>1</productId>
+        <productName>IPHONEX</productName>
+        <description>Iphonex</description>
+        <price>10000.0</price>
+        <imageUrl>http://iphonex</imageUrl>
+        <availability>2019-06-18</availability>
+        <rating>4.5</rating>
+    </order>
+    <order>
+        <productId>4</productId>
+        <productName>Oneplus 7 pro</productName>
+        <description>OnePlus7Pro</description>
+        <price>590000.0</price>
+        <imageUrl>http://oneplus</imageUrl>
+        <availability>2019-06-18</availability>
+        <rating>4.5</rating>
+    </order>
+</orders>
